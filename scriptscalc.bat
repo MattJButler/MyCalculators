@@ -1,3 +1,6 @@
+REM
+REM    This is an overcomplicated version of a batch calculator
+REM
 @echo off
 cls
 :main
