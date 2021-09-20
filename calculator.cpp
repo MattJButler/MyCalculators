@@ -8,6 +8,18 @@ using std::string;
 //	Complicated c++ calculator 
 //
 int main(){
+	int add(x,y){
+		return x+y
+		}
+	int sub(x,y){
+		return x-y
+		}
+	int mult(x,y){
+		return x*y
+		}
+	int div(x,y){
+		return x/y
+		}
 	
 	cout << "\x1B[2J\x1B[H";
 	cout << "enter a number:" << endl;
@@ -35,22 +47,22 @@ int main(){
 		if (intinput == "1"){
 	
 		int sum = num1+num2;
-		cout << num1 << "+" << num2 << "=" << sum << endl;
+		cout << num1 << "+" << num2 << "=" << add(num1,num2) << endl;
 	}
 	
 		else if (intinput == "2"){
-			int sum = num1-num2;
-			cout << num1 << "-" << num2 << "=" << sum << endl;
+			
+			cout << num1 << "-" << num2 << "=" << sub(num1,num2) << endl;
 		}
 	
 		else if ( intinput == "3"){
-			int sum = num1*num2;
-			cout << num1 << " x " << num2 << "=" << sum << endl;
+			
+			cout << num1 << " x " << num2 << "=" << mult(num1,num2) << endl;
 		}
 	
 		else if (intinput == "4"){
-			int sum = num1/num2;
-			cout << num1 << "/" << num2 << "=" << sum << endl;
+			
+			cout << num1 << "/" << num2 << "=" << div(num1,num2) << endl;
 		}
 	
 		
